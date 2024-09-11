@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+}
+#nav-bar{
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(247, 8, 8);
+    position: fixed;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+
+
+}
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+   gap: 70px;
+   margin-left: 800px;
+   top: 0;
+
+}
+#nav-bar li{
+    list-style: none;
+   
+}
+#nav-bar a{
+text-decoration: none;
+font-size: 24px;
+color: azure;
+font-family: sans-serif;
+
+
+}
+
+#nav-bar a:hover{
+    background-color: aqua;
+    height: 80px;
+}
+#welcome-section{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.hey{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+    
+}

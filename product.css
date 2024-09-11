@@ -1,0 +1,221 @@
+body{
+    box-sizing: border-box;
+    background-color: rgba(240, 238, 238, 0.902);
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+   
+    position:absolute;
+    
+}
+#header{
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    border: 1px solid;
+    z-index: 2;
+}
+.trombones{
+    width:22%;
+    height:65px;
+    margin-left: 25px;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+    justify-content: space-around;
+    margin-top: -23px;
+    background-color: red;
+}
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    
+}
+#nav-bar li{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 43px;
+    margin-top: -21px;
+
+}
+#nav-bar a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    display: flex;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+.header{
+    font-size: 25px;
+    margin-left: 400px;
+    margin-top: 70px;
+    font-weight: bold;
+   
+
+}
+#form{
+    margin-left: 472px;
+}
+#email{
+    width: 268px;
+    height: 24px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    
+}
+#submit{
+    width: 120px;
+    height: 27px;
+    background-color: rgb(251, 178, 41);
+    border-color: transparent;
+    margin-top: 10px;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: larger;
+}
+#submit:hover{
+    background-color: rgb(194, 128, 5);
+}
+#submit:active{
+background-color: rgb(236, 190, 104);
+}
+.p1 header{
+font-size: 28px;
+font-weight: 600;
+display: block;
+}
+.p1{
+    margin-left: 310px;
+    margin-top: 100px;
+    height: 100vh;
+    
+}
+
+.p1 p{
+    font-size: 17px;
+    padding-bottom: 50px;
+}
+iframe{
+    width: 600px;
+    height: 300px;
+    margin-left: 330px;
+    margin-top: -160px;
+}
+.hero{
+    z-index: -1;
+    background-color: rgba(240, 238, 238, 0.902);
+   
+    
+}
+.price{
+    display: flex;
+    flex-direction: row;
+   gap: 20px;
+   margin-left: 165px;
+   margin-top: 50px;
+   
+
+}
+.price1{
+width: 290px;
+height: 300px;
+border: 1px solid;
+border-radius: 3px;
+}
+.price2{
+    width: 290px;
+height: 300px;
+border: 1px solid;
+border-radius: 3px;
+}
+.price3{
+    width: 290px;
+height: 300px;
+border: 1px solid;
+border-radius: 3px;
+}
+.price header{
+    width: 290px;
+    height: 32px;
+    background-color: rgb(223, 219, 219);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  padding-bottom: 0;
+  padding-top: 14px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+    
+}
+.price p{
+    text-align: center;
+}
+.price p:nth-of-type(1){
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.select{
+    width: 70px;
+    height: 35px;
+    display: block;
+    margin: auto;
+    background-color:  rgb(251, 178, 41);
+    border: transparent;
+}
+.select:hover{
+    background-color: rgb(194, 128, 5);
+}
+.select:active{
+    background-color: rgb(236, 190, 104); 
+}
+.last{
+    width: 910px;
+    height: 100px;
+    background-color: rgb(222, 221, 221);
+    display: block;
+    margin-left: 165px;
+    margin-top: 20px;
+}
+.last1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+    justify-content: space-around;
+    
+}
+.last1 ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.last1 li{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 13px;
+    margin-top: 20px;
+}
+.last1 a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    display: flex;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+.last p{
+    margin-left: 650px;
+    margin-top: -1px;
+}
+

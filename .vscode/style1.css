@@ -1,0 +1,205 @@
+body{
+    width: 1000px;
+    height:600px ;
+    background-color: rgb(15, 241, 241);
+}
+.cat{
+    background-color: aqua;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+.cat-head{
+    border-radius: 46%;
+    background-color: rgb(243, 140, 6);
+    border: solid black transparent;
+    width: 200px;
+    height: 180px;
+    margin-left: 248px;;
+    margin-top: 100px;
+    position: absolute;
+    
+    
+}
+.left-eye{
+width: 43px;
+height:28px ;
+border-radius: 52%;
+background-color: rgb(38, 2, 2);
+position:absolute;
+top:52px;
+margin-left: 33px;
+transform: rotate(145deg);
+}
+.left-inner-eye{
+    width: 20px;
+    height: 11px;
+    border-radius: 52%;
+    background-color: white;
+    transform: rotate(2deg);
+    margin-left: 3px;
+    position: absolute;
+    top: 6px;
+    
+}
+.right-eye{
+    width: 43px;
+    height:28px ;
+    border-radius: 52%;
+    background-color: rgb(38, 2, 2);
+    position:absolute;
+    top:52px;
+    margin-left: 123px; 
+    transform: rotate(-146deg);
+}
+.right-inner-eye{
+    width: 20px;
+    height: 11px;
+    border-radius: 52%;
+    background-color: white;
+    position: absolute;  
+    top: 5px;
+    margin-left: 19px;
+}
+.left-ear{
+    height: 0px;
+  width: 0px;
+  
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  
+  border-bottom: 55px solid rgb(243, 140, 6);
+  position: absolute;
+  border-radius: 15px;
+  transform: rotate(87deg);
+  margin-top: -20px;
+  
+  z-index: 1;
+  
+}
+.left-inner-ear{
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   border-bottom: 40px solid rgb(211, 122, 5);
+   transform: rotate(-114deg);
+   position: absolute;
+   margin-top: 20px;
+   margin-left: -19px;
+ }
+.right-ear{
+    height: 0px;
+  width: 0px;
+  
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  
+  border-bottom: 55px solid rgb(243, 140, 6);
+  position: absolute;
+  border-radius: 15px;
+  left:120px;
+  transform: rotate(-87deg);
+  margin-top: -20px;
+  z-index: 1;
+  
+}
+.right-inner-ear{
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   border-bottom: 40px solid rgb(211, 122, 5);
+   transform: rotate(114deg);
+   position: absolute;
+   margin-top: 20px;
+   margin-left: -7px; 
+   
+}
+.cat-nose{
+    width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid rgb(241, 222, 197);
+  margin-top:109px;
+  margin-left: 86px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+   
+}
+.cat-mouth-left{
+    width: 30px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 190%/190px 150px 0 0;
+    border-color: black transparent transparent transparent;
+    margin-left: 76px;
+    transform: rotate(180deg);
+    margin-top:-46px;
+}
+.cat-mouth-right{
+    width: 30px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 190%/190px 150px 0 0;
+    border-color: black transparent transparent transparent;
+    margin-left: 94px;
+    transform: rotate(180deg);
+    margin-top:-54px;
+}
+.cat-mouth-left-top-whiskers{
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    transform: rotate(-8deg);
+    margin-left: 65px;
+    margin-top: -2px;
+}
+.cat-mouth-left-middle-whiskers{
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    transform: rotate(8deg);
+    margin-left: 65px;
+    margin-top: -10px;
+}
+.cat-mouth-left-bottom-whiskers{
+    width: 30px;
+    height: 1px;
+    background-color: rgb(71, 45, 45);
+    position: absolute;
+    transform: rotate(21deg);
+    margin-left: 65px;
+    margin-top: -18px;
+}
+.cat-mouth-right-top-whiskers{
+    width: 30px;
+    height: 1px;
+    background-color: rgb(71, 45, 45);
+    position: absolute;
+    transform: rotate(-20deg);
+    margin-left: 107px;
+    margin-top: -18px;
+}
+.cat-mouth-right-middle-whiskers{
+    width: 30px;
+    height: 1px;
+    background-color: rgb(71, 45, 45);
+    position: absolute;
+    transform: rotate(-7deg);
+    margin-left: 107px;
+    margin-top: -10px;
+}
+.cat-mouth-right-bottom-whiskers{
+    width: 30px;
+    height: 1px;
+    background-color: rgb(71, 45, 45);
+    position: absolute;
+    transform: rotate(6deg);
+    margin-left: 107px;
+    margin-top: -2px;
+}

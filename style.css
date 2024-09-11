@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(255, 255, 255, );
+}
+#main{
+    background-color: rgba(230, 229, 229, 0.954);
+}
+img{
+    width: 1100px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    
+    
+}
+figcaption{
+    padding: 20px;
+    font-size: 17px;
+}
+#img-div{
+    background-color: white;
+}
+#title{
+    font-size: 36px;
+    font-weight: 300;
+    margin-left: 450px;
+}.description{
+    margin-left: 500px;
+}
+#tribute-info{
+    margin-left:450px;
+    font-size: 26px;
+    font-weight: 200;
+}
+.info{
+    margin-left:260px ;
+    line-height: 29px;
+}
+li{
+    margin-bottom: 25px;
+}
+.italic{
+    font-style: italic;
+    font-size: 19px;
+}
+.indian{
+    font-style: italic;
+    font-size: 20px;
+}
+.last{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+a{
+    color: rgb(97, 64, 127);
+}
+

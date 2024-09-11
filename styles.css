@@ -1,0 +1,74 @@
+.body{
+    background-color: rgb(1, 1, 51);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    border: none;
+    padding-bottom: 20px;
+}
+    
+
+body{
+    background-color: rgb(217, 129, 7);
+    color: aliceblue;
+    
+}
+label{
+    display: block;
+}
+.submit{
+    background-color: greenyellow;
+    width: 780px;
+    height: 20px;
+    margin-top: 30px;
+    border: none;
+}
+#name{
+    width: 800px;
+    height: 30px;
+
+}
+#email{
+    width: 800px;
+    height: 30px;
+}
+#age{
+    width: 800px;
+    height: 30px;
+    
+}
+#option{
+    width: 800px;
+    height: 30px;
+    
+    
+}
+.apply{
+    width: 800px;
+    height: 30px;
+}
+#comment{
+    width: 800px;
+    height: 100px;
+    
+}
+h1, .thankyou{
+    text-align: center;
+}
+.all{
+    padding-left: 15px;
+}
+.name, .email, .age, .option{
+    border: none;
+}
+#Definetly{
+    color: blue;
+}
+input::placeholder{
+    position: absolute;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

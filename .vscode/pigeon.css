@@ -1,0 +1,16 @@
+body{
+    
+    box-sizing: border-box;
+}
+.whole{
+    background: linear-gradient( 45deg, rgb(181, 210, 243), rgb(249, 249, 198));
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.ground{
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+
+}

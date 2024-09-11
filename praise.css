@@ -1,0 +1,230 @@
+body{
+    box-sizing: border-box;
+}
+.page-wrap{
+    width: 100vw;
+    height:100vh;
+    position:absolute;
+
+}
+img{
+    width: 40px;
+    height: 20px;
+}
+.image{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -32px;
+    margin-left: 37px;
+}
+
+
+
+.nav-bar{
+    width: 100vw;
+    height: 68px;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: flex-end;
+flex-direction: row;
+margin: -80px;
+
+}
+
+.nav-bar ul{
+    display: flex;
+    
+}
+.nav-bar li{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 23px;
+    margin-top: 8px;
+    width: 130px;
+    height: 40px;
+
+}
+.nav-bar li:hover{
+    background-color: rgb(213, 210, 210);
+}
+.nav-bar a{
+text-decoration: none;
+color: black;
+justify-content: space-around;
+font-size: 17px;
+
+}
+.aside{
+    border-right: 1px solid rgb(203, 200, 200);
+width: 250px;
+min-height:100%;
+position:fixed;
+overflow-y: auto;
+height: 100vh;
+}
+.aside ul{
+    height: 88%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+}
+.aside li{
+    list-style: none;
+    height: 35px;
+    width: 100%;
+    position: relative;
+    padding-top: 18px;
+    padding-bottom: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 180px;
+    height: 30px;
+    
+}
+.aside a{
+    text-decoration: none; 
+    padding-left: 30px;
+    color: rgb(112, 110, 110);
+}
+.aside li:hover{
+    background-color: rgb(206, 204, 204);
+}
+.whole{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin-top: 81px;
+}
+
+.main{
+    margin-top: 20px;
+    margin-left: 400px;
+    
+    overflow-y: auto;
+   
+}
+.welcome{
+    font-size: 30px;
+    font-weight: 600;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+   gap: 20px;
+   margin-left: 0px;
+   margin-top: 50px;
+   
+   margin-bottom: 30px;
+}
+.box1,.box2{
+    width: 350px;
+    height: 150px;
+    border: 1px solid rgb(227, 225, 225);
+    border-radius: 3%;
+}
+.subox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 6px;
+    
+}
+.subox1, .subox2{
+    width:115px;
+    height:27px;
+    border: 1px solid;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.subox p{
+    font-size: 11px;
+    margin-top: 4px;
+    
+}
+.whole-subox, .boxp1{
+    margin-left:4px;
+}
+.whole-subox header{
+    margin-top: 10px;
+}
+.boxp1{
+    border-bottom: 1px solid rgb(219, 218, 218);
+    width:345px;
+    height:35px;
+}
+.subox1{
+    color:white;
+    background-color: black;
+}
+.box2 header{
+    border-bottom: 1px solid rgb(219, 218, 218);
+    width:345px;
+    height:35px; 
+    margin-top: 15.5px; 
+}
+.box2 header,p{
+    margin-left: 4px;
+}
+.main-sub{
+    width: 800px;
+    height: 350px;
+    border-bottom:1px solid;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+}
+.boxes{
+display:flex;
+flex-direction: row;
+gap:20px;
+}
+#box1{
+    width: 200px;
+    height: 150px;
+    border: transparent;
+}
+.lists{
+    display: flex;
+    flex-direction: row;
+    margin-top: -49px;
+    margin-left: 194px;
+}
+.lists ul{
+    display: flex;
+}
+.lists li{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 12px;
+    
+}
+.lists a{
+    color: black;
+    font-size: 14px;
+}
+#last{
+    font-size: 14px;
+    margin: 0;
+}
+.rights{
+    font-size: 14px;
+}
+#last a{
+    color:black;
+}
+.country{
+    margin-left: 700px;
+    
+}
+#select{
+    margin-top: 80px;
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
