@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: rgb(243, 222, 192);
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.box1{
+    width: 30rem;
+    background-color: white;
+    height: 20rem;
+    margin: auto;
+    margin-top: 1.3rem;
+}
+.box1 header{
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+
+.email{
+    
+   width: 23rem; 
+   height: 1rem;
+   position: relative;
+   margin: auto;
+   margin-top: 2.5rem;
+   
+}
+.btn1::placeholder{
+    color: black;
+}
+.box2{
+    width: 30rem;
+    height: 13rem;
+    margin: auto;
+    background-color: white;
+}
+#btn1{
+    display: flex;
+    width: 24rem;
+    height: 2rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+
+}
+.btn2{
+    display: flex;
+    width: 24rem;
+    height: 2.3rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    background-color: black; 
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+
+}
+.btn2:hover{
+    background-color: grey;
+}
+.p1{
+    text-align: center;
+    color: blue;
+}
+.p2{
+    text-align: center;
+}
+.p2 a{
+    text-decoration: none;
+    color: blue;
+}
+.box2 header{
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+.btn3{
+    display: flex;
+    width: 24rem;
+    height: 2.3rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    border: 2px solid rgb(5, 113, 55);
+    color: white;
+
+    font-size: 1rem;
+    border-radius: 4px; 
+}
+.btn3::placeholder{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+margin-left: 7rem;
+    margin-top: 1.2rem;
+    
+    
+}
+.button1,
+.button2,
+.button3{
+    width: 6rem;
+    height: 0.6rem;
+    border: 1px solid black;
+    padding-bottom: 17px;
+    position: relative;
+    border-top: none;
+    border-bottom: none;
+    
+    
+}
+.buttons p{
+    margin-top: 4px;
+}
+.button1{
+    border-left: none;
+}
+.button3{
+    border-right: none;
+}
