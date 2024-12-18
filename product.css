@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family:"Outfit",sans-serif;
+}
 body{
     box-sizing: border-box;
     background-color: rgba(240, 238, 238, 0.902);
+    /* font-family: Arial, Helvetica, sans-serif; */
 
 }
 .container{
@@ -15,7 +22,8 @@ body{
     width: 100vw;
     height: 100px;
     border: 1px solid;
-    z-index: 2;
+    z-index:2;
+    background:#fff;
 }
 .trombones{
     width:22%;
@@ -218,4 +226,8 @@ border-radius: 3px;
     margin-left: 650px;
     margin-top: -1px;
 }
-
+@media only screen and (max-width: 600px) {
+    body{
+    font-size: 24px;
+    }
+  }
