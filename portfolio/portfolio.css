@@ -12,20 +12,30 @@
 }
 
 .nav-bar ul{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 20px; 
     justify-content: flex-end;
-    margin-right: 50px;
+    margin-right: 50px;*/
+    text-align: right;
 }
 .nav-bar li{
     list-style: none;
+    display: inline-block;
+    margin-inline: 1rem;
+    
 }
 .nav-bar a{
     text-decoration: none;
     color: white;
     font-size: 19px;
 }
+.nav-bar li:hover, .nav-bar li:focus{
+background: blue;
+padding: 0 5px;
+
+}
+
 .welcome-section{
     background: rgb(36, 35, 35);
     width: 100%;
